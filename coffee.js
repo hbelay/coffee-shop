@@ -137,7 +137,7 @@ var capitolHill = {
     }
   },
   render: function() {
-    capitolHill.calcCustomersPerHour(pikePlace.minCustomersHour, pikePlace.maxCustomersHour);
+    capitolHill.calcCustomersPerHour(capitolHill.minCustomersHour, capitolHill.maxCustomersHour);
     capitolHill.calCupsPerHour();
     capitolHill.calBeansNeededForCupsPerHour();
     capitolHill.calPoundPackagesPerHour();
@@ -222,7 +222,7 @@ var seattlePublicLibrary = {
     }
   },
   render: function() {
-    seattlePublicLibrary.calcCustomersPerHour(pikePlace.minCustomersHour, pikePlace.maxCustomersHour);
+    seattlePublicLibrary.calcCustomersPerHour(seattlePublicLibrary.minCustomersHour, seattlePublicLibrary.maxCustomersHour);
     seattlePublicLibrary.calCupsPerHour();
     seattlePublicLibrary.calBeansNeededForCupsPerHour();
     seattlePublicLibrary.calPoundPackagesPerHour();
@@ -306,7 +306,7 @@ var southLakeUnion = {
     }
   },
   render: function() {
-    southLakeUnion.calcCustomersPerHour(pikePlace.minCustomersHour, pikePlace.maxCustomersHour);
+    southLakeUnion.calcCustomersPerHour(southLakeUnion.minCustomersHour, southLakeUnion.maxCustomersHour);
     southLakeUnion.calCupsPerHour();
     southLakeUnion.calBeansNeededForCupsPerHour();
     southLakeUnion.calPoundPackagesPerHour();
@@ -391,7 +391,7 @@ var seaTacAirPort = {
     }
   },
   render: function() {
-    seaTacAirPort.calcCustomersPerHour(pikePlace.minCustomersHour, pikePlace.maxCustomersHour);
+    seaTacAirPort.calcCustomersPerHour(seaTacAirPort.minCustomersHour, seaTacAirPort.maxCustomersHour);
     seaTacAirPort.calCupsPerHour();
     seaTacAirPort.calBeansNeededForCupsPerHour();
     seaTacAirPort.calPoundPackagesPerHour();
