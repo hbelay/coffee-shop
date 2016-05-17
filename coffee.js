@@ -62,7 +62,7 @@ var pikePlace = {
     for (var i = 0; i < hours.length; i++) {
       var liElement = document.createElement('li');
       liElement.textContent = hours[i] + ': ' + this.beansPerHour[i] + ' lbs[' + this.customersPerHour[i] + ' customers, '
-      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to go]';
+      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to-go]';
       ulElement.appendChild(liElement);
     }
 
@@ -147,7 +147,7 @@ var capitolHill = {
     for (var i = 0; i < hours.length; i++) {
       var liElement = document.createElement('li');
       liElement.textContent = hours[i] + ': ' + this.beansPerHour[i] + ' lbs[' + this.customersPerHour[i] + ' customers, '
-      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to go]';
+      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to-go]';
       ulElement.appendChild(liElement);
     }
 
@@ -232,7 +232,7 @@ var seattlePublicLibrary = {
     for (var i = 0; i < hours.length; i++) {
       var liElement = document.createElement('li');
       liElement.textContent = hours[i] + ': ' + this.beansPerHour[i] + ' lbs[' + this.customersPerHour[i] + ' customers, '
-      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to go]';
+      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to-go]';
       ulElement.appendChild(liElement);
     }
 
@@ -316,7 +316,7 @@ var southLakeUnion = {
     for (var i = 0; i < hours.length; i++) {
       var liElement = document.createElement('li');
       liElement.textContent = hours[i] + ': ' + this.beansPerHour[i] + ' lbs[' + this.customersPerHour[i] + ' customers, '
-      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to go]';
+      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to-go]';
       ulElement.appendChild(liElement);
     }
 
@@ -401,7 +401,7 @@ var seaTacAirPort = {
     for (var i = 0; i < hours.length; i++) {
       var liElement = document.createElement('li');
       liElement.textContent = hours[i] + ': ' + this.beansPerHour[i] + ' lbs[' + this.customersPerHour[i] + ' customers, '
-      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to go]';
+      + ' ' + this.cupsPerHour[i] + ' cups(' + this.beansNeededForCupsPerHour[i] + '), ' + this.poundPackagesPerHour[i] + ' to-go]';
       ulElement.appendChild(liElement);
     }
 
